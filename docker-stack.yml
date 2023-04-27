@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: "dineshverma877/flask:flask"
+    ports:
+    - "8000:5000"
+  redis:
+    image: "redis:alpine"
